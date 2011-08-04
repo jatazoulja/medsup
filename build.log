@@ -1,0 +1,21 @@
+Logfile initialized
+[INFO] logfile = C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build.log
+[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 11 HVGA 59.2.0.127:46772
+[INFO] Building medSupp for Android ... one moment
+[INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.037000 seconds on emulator to get ready
+[DEBUG] com.medSupp installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[WARN] Use of AndroidManifest.custom.xml is deprecated. Please put your custom manifest as "AndroidManifest.xml" in the "platform/android" directory if you do not need to compile for versions < 1.5
+[INFO] Detected custom ApplicationManifest.xml -- no Titanium version migration supported
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... medSupp
+[INFO] Launching application ... medSupp
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.medSupp/.MedsuppActivity }
+
