@@ -14,7 +14,7 @@ var pdev2 = {
 };
 
 var production = {
-	url : "http://medsupp.ltcglobal.com:80/android/",
+	url : "http://65.61.232.24/android/",
 	key : "YW5kcm9pZE1vYmlsZQ",
 	contact: "jatazoulja@gmail.com",
 	tempQuery: [],
@@ -25,4 +25,4 @@ var production = {
 
 
 
-var arSettings = intraNet; 
+var arSettings = production; 

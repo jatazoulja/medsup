@@ -1,190 +1,21 @@
 Logfile initialized
 [INFO] logfile = C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build.log
-[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 11 HVGA 59.2.0.127:53898
+[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 11 HVGA
 [INFO] Building medSupp for Android ... one moment
 [INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[DEBUG] Device connected... (waited 60 seconds)
-[DEBUG] waited 60.636000 seconds on emulator to get ready
-[INFO] Waiting for the Android Emulator to become available
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.033000 seconds on emulator to get ready
 [DEBUG] com.medSupp installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\android\listTable.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\listTable.js
-[TRACE] Generating Java Classes
+[INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
-[DEBUG] copying app icon: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appicon.png
-[DEBUG] generating theme.xml
-[DEBUG] found splash screen at C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\default.png
 [WARN] Use of AndroidManifest.custom.xml is deprecated. Please put your custom manifest as "AndroidManifest.xml" in the "platform/android" directory if you do not need to compile for versions < 1.5
 [INFO] Detected custom ApplicationManifest.xml -- no Titanium version migration supported
-[TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\MedsuppActivity.java to javac build list
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\MedsuppAppInfo.java to javac build list
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\MedsuppApplication.java to javac build list
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\R.java to javac build list
-[DEBUG] Building Java Sources: "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppActivity.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppAppInfo.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppApplication.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\R.java"
 [INFO] Waiting for SDCard to become available..
-[INFO] Compiling Android Resources... This could take some time
-[DEBUG] Android classes.dex built
-[DEBUG] creating unsigned apk: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\app-unsigned.apk
-[DEBUG] from resource zip => assets/Resources/config/config.js
-[DEBUG] from resource zip => assets/Resources/images/Dialog/arrow down.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/arrow up.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/copy.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/cut.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/options.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/paste.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/redo.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/undo.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/zoom in.png
-[DEBUG] from resource zip => assets/Resources/images/Dialog/zoom out.png
-[DEBUG] from resource zip => assets/Resources/images/List/arrow down.png
-[DEBUG] from resource zip => assets/Resources/images/List/arrow up.png
-[DEBUG] from resource zip => assets/Resources/images/List/copy.png
-[DEBUG] from resource zip => assets/Resources/images/List/cut.png
-[DEBUG] from resource zip => assets/Resources/images/List/options.png
-[DEBUG] from resource zip => assets/Resources/images/List/paste.png
-[DEBUG] from resource zip => assets/Resources/images/List/redo.png
-[DEBUG] from resource zip => assets/Resources/images/List/undo.png
-[DEBUG] from resource zip => assets/Resources/images/List/zoom in.png
-[DEBUG] from resource zip => assets/Resources/images/List/zoom out.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/arrow down.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/arrow up.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/copy.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/cut.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/options.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/paste.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/redo.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/undo.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/zoom in.png
-[DEBUG] from resource zip => assets/Resources/images/Menu/zoom out.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/arrow down selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/arrow down unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/arrow up selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/arrow up unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/copy selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/copy unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/cut selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/cut unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/options selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/options unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/paste selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/paste unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/redo selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/redo unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/undo selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/undo unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/zoom in selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/zoom in unselected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/zoom out selected.png
-[DEBUG] from resource zip => assets/Resources/images/Tab/zoom out unselected.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/americancontinental.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/americancontinental.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/anthem.jpg
-[DEBUG] from resource zip => assets/Resources/images/carrier/anthembluecrossandblueshield.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/bluecross-blueshield.jpg
-[DEBUG] from resource zip => assets/Resources/images/carrier/bluecrossblueshield.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/conseco.jpg
-[DEBUG] from resource zip => assets/Resources/images/carrier/conseco.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/continentallife.jpg
-[DEBUG] from resource zip => assets/Resources/images/carrier/continentallife.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/genworth.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/genworth.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/mutualofomaha.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/mutualomaha.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/priorityhealth.jpg
-[DEBUG] from resource zip => assets/Resources/images/carrier/priorityhealth.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/standardlife.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/standarlife.jpg
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedamerican.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedamerican.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedhealthcare.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedhealthcare.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedofomaha.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedofomaha.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedworld.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/unitedworld.png
-[DEBUG] from resource zip => assets/Resources/images/carrier/woodmen.gif
-[DEBUG] from resource zip => assets/Resources/images/carrier/woodmenassuredlife.png
-[DEBUG] from resource zip => assets/Resources/images/bg_01.jpg
-[DEBUG] from resource zip => assets/Resources/images/bg_01.png
-[DEBUG] from resource zip => assets/Resources/libs/ajax.js
-[DEBUG] from resource zip => assets/Resources/libs/debug.js
-[DEBUG] from resource zip => assets/Resources/libs/forms.js
-[DEBUG] from resource zip => assets/Resources/libs/library.js
-[DEBUG] from resource zip => assets/Resources/libs/validation.js
-[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
-[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
-[DEBUG] from resource zip => assets/Resources/app.js
-[DEBUG] from resource zip => assets/Resources/appOption.js
-[DEBUG] from resource zip => assets/Resources/appicon.png
-[DEBUG] from resource zip => assets/Resources/appicon.psd
-[DEBUG] from resource zip => assets/Resources/default.png
-[DEBUG] from resource zip => assets/Resources/default.psd
-[DEBUG] from resource zip => assets/Resources/listTable.js
-[DEBUG] from resource zip => assets/Resources/listTable.jss
-[DEBUG] from resource zip => assets/Resources/login.js
-[DEBUG] from resource zip => assets/Resources/login.jss
-[DEBUG] from resource zip => assets/Resources/logo.png
-[DEBUG] from resource zip => assets/Resources/options.png
-[DEBUG] from resource zip => assets/tiapp.xml
-[DEBUG] from resource zip => res/drawable/appicon.png
-[DEBUG] from resource zip => res/drawable/background.png
-[DEBUG] from resource zip => res/drawable/facebook_icon.png
-[DEBUG] from resource zip => res/drawable/facebook_login.png
-[DEBUG] from resource zip => res/drawable/facebook_login_down.png
-[DEBUG] from resource zip => res/drawable/facebook_login_wide.png
-[DEBUG] from resource zip => res/drawable/facebook_login_wide_down.png
-[DEBUG] from resource zip => res/drawable/facebook_logout.png
-[DEBUG] from resource zip => res/drawable/facebook_logout_down.png
-[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
-[DEBUG] from resource zip => AndroidManifest.xml
-[DEBUG] from resource zip => resources.arsc
-[DEBUG] from resource zip => res/drawable-hdpi/facebook_icon.png
-[DEBUG] from resource zip => res/drawable-ldpi/facebook_icon.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/apache/mime4j-NOTICE.txt
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-yahoo.jar => ti/modules/titanium/yahoo/yahoo.js
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages.properties
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
-[DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 2 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.032000 seconds on emulator to get ready
-[INFO] Installing application on device
+[INFO] Re-launching application ... medSupp
 [INFO] Launching application ... medSupp
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.medSupp/.MedsuppActivity }
 
-[INFO] Deployed medSupp ... Application should be running.
