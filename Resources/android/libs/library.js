@@ -10,6 +10,11 @@ Titanium.include("ajax.js");
 Titanium.include("forms.js");
 Titanium.include("validation.js");
 Titanium.include("debug.js");
+function genAdd(thisobj,thisar) {
+	for(x=0;x<thisar.length;x++) {
+		thisobj.add(thisar[x]);
+	}
+}
 
 
 function proCessTable(tableView,data,extra) {

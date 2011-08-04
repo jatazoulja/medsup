@@ -9,104 +9,24 @@ var image = Titanium.UI.createImageView({
 	image:'logo.png'
 	});
 
-var ioUsername = Titanium.UI.createTextField({
-	width: "60%",
-	color: "#222",
-	paddingLeft: 5,
-	font: {
-		fontSize:16
-	},
-	height: 40,
-	top: 165,
-	value:"agent"
-});
+var lblUsername = forms.label("Username", "username", "textLabel"); 
+var lblPassword = forms.label("Password", "password", "textLabel"); 
+var ioUsername = forms.text('Username', 'ioUser', "textBox")
+var ioPassword = forms.text('Password', 'ioPass', "textBox")
+var btnLogin	= forms.button("Login","btnLogin","button",{top: 280});
 
-var lblUsername = Titanium.UI.createLabel({
-	text:'Username:',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-	top: 140
-});
+var arElements = [
+	image,
+	ioUsername,
+	lblUsername,
+	ioPassword,
+	lblPassword,
+	btnLogin,
+];
 
-var ioPassword = Titanium.UI.createTextField({
-	width: "60%",
-	color: "#222",
-	paddingLeft: 5,
-	font: {
-		fontSize:16
-	},
-	height: 40,
-	top: 235,
-	passwordMask:true,
-	value:"m3dsupp"
-});
+genAdd(wLoginWin,arElements);
 
-var lblPassword = Titanium.UI.createLabel({
-	text:'Password:',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-	top: 210
-});
-var btnLogin = Titanium.UI.createButton({
-	width: "50%",
-	color: "#555",
-	font: {
-		fontSize: 22,
-		fontWeight: "bold"
-	},
-	height: 50,
-	top: 280,
-	title: "Login"
-});
-
-var loading = Titanium.UI.createLabel({
-	text:':',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-	top: 210
-});
-wLoginWin.add(image);
-wLoginWin.add(ioUsername);
-wLoginWin.add(lblUsername);
-wLoginWin.add(ioPassword);
-wLoginWin.add(lblPassword);
-wLoginWin.add(btnLogin);
-wLoginWin.add(loading);
 wLoginWin.arSettings = arSettings;
-// btnLogin.addEventListener('click',getValidLogin);
-var activity = Ti.Android.currentActivity;
-
-
-activity.onCreateOptionsMenu = function(e) {
-    Ti.API.debug("In onCreateOptionsMenu");
-    var menu = e.menu;
-    var setOption = menu.add({ title: "settings" });
-    var menuItem = menu.add({ title: "Item 1" });
-    setOption.setIcon("/images/Menu/options.png")
-    setOption.addEventListener("click", function(e) {
-        var w = Titanium.UI.createWindow({
-    		url:'appOption.js'
-		});
-		w.open();
-		w.arSettings = wLoginWin.arSettings;
-    });
-    menuItem.addEventListener("click", function(e) {
-        Ti.API.debug("I was clicked");
-    });
-};
-
 
 btnLogin.addEventListener("click",function() {
 	user = ioUsername.value;
@@ -130,13 +50,6 @@ btnLogin.addEventListener("click",function() {
 					});
 					oList.open();
 					oList.arSettings = wLoginWin.arSettings;
-					// wLoginWin.remove(image);
-					// wLoginWin.remove(ioUsername);
-					// wLoginWin.remove(lblUsername);
-					// wLoginWin.remove(ioPassword);
-					// wLoginWin.remove(lblPassword);
-					// wLoginWin.remove(btnLogin);
-					// wLoginWin.remove(loading);
 				} else {
 					progDialog = Titanium.UI.createAlertDialog({
 						title: "Loading",
@@ -162,15 +75,11 @@ btnLogin.addEventListener("click",function() {
 			},
 			function(evt) {
 				alert(evt.lengthComputable)
-			   	if (evt.lengthComputable) {  //evt.loaded the bytes browser receive
-			      //evt.total the total bytes seted by the header
-			      //
+			   	if (evt.lengthComputable) {
 			    var percentComplete = (evt.loaded / evt.total)*100;  
-			     // $('#progressbar').progressbar( "option", "value", percentComplete );
 			   	} 
 			},
 			function(e) {
-				loading.text = e.progress;
 			}
 		
 		);

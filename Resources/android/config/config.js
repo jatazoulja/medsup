@@ -1,4 +1,4 @@
-var defaultSet = {
+var intraNet = {
 	url : "http://59.0.0.126/android/",
 	key : "YW5kcm9pZE1vYmlsZQ",
 	contact: "jatazoulja@gmail.com",
@@ -13,5 +13,16 @@ var pdev2 = {
 	tempData: []
 };
 
+var production = {
+	url : "http://medsupp.ltcglobal.com:80/android/",
+	key : "YW5kcm9pZE1vYmlsZQ",
+	contact: "jatazoulja@gmail.com",
+	tempQuery: [],
+	tempData: []
+};
 
-var arSettings = defaultSet; 
+
+
+
+
+var arSettings = intraNet; 

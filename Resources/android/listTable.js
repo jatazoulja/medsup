@@ -36,233 +36,79 @@ var view = Ti.UI.createView({
 	top:10
 });
 
-// Start Forms
+var optZip 		= forms.label("Zip Code",'zipCode',false,{top:0});
+var optAge 		= forms.label("Age",'Age',false,{top:60});
+var optMsplan 	= forms.label("MS Plan:",'msPlan',false,{top:120});
+var optGender 	= forms.label("Gender",'gender',false,{top:180});
+var optTobacco 	= forms.label("Tobacco",'Tobacco',false,{top:240});
+var ioZip 		= forms.text("00000","inpZip","inputText",{top:30});
+var ioAge 		= forms.text("00","inpZip","inputText",{top:90});
+var ioTobacco	= forms.text("","inpZip","inputText",{top:270});
+var btnSubmitSearch	= forms.button("Search","btnSearch","button",{top:330});
 
-var optZip = Titanium.UI.createLabel({
-	text:'Zip Code:',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-});
-var ioZip = Titanium.UI.createTextField({
-	width: "60%",
-	color: "#222",
-	border: 1,
-	borderRadius: 3,
-	font: {
-		fontSize:16
-	},
-	height: 40,
-	value:'55074'
-});
-var optAge = Titanium.UI.createLabel({
-	text:'Age',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-});
-var ioAge = Titanium.UI.createTextField({
-	width: "60%",
-	color: "#222",
-	border: 1,
-	borderRadius: 3,
-	font: {
-		fontSize:16
-	},
-	height: 40,
-	value:'65'
+ioMsPlanData = [
+	{title:'A',custom_item:'A'},
+	{title:'C',custom_item:'C'},
+	{title:'C*',custom_item:'C*'},
+	{title:'D',custom_item:'D'},
+	{title:'F',custom_item:'F'},
+	{title:'F*',custom_item:'F*'},
+	{title:'G',custom_item:'G'},
+	{title:'HD',custom_item:'HD'},
+	{title:'K',custom_item:'K'},
+	{title:'L',custom_item:'L'},
+	{title:'M',custom_item:'M'},
+	{title:'N',custom_item:'N'}
+]
+
+var ioMsPlan = forms.selectOne({top:150},'selectMsPlan','selectOne',ioMsPlanData,true,2);
+var ioMsPlanVal ='';
+ioMsPlan.addEventListener('change', function(e) {
+	ioMsPlanVal = e.row;
 });
 
-var optGender = Titanium.UI.createLabel({
-	text:'Gender:',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-});
-var ioGender = Titanium.UI.createPicker({
-	width:"60%",
-	color:'#222'
-});
+ioGenderData = [
+	{title:'Male',custom_item:'M'},
+	{title:'Female',custom_item:'F'},
+	{title:'Don\'t Care',custom_item:'D'},
+	{title:'Unknown',custom_item:'E'}
+]
+var ioGender = forms.selectOne({top:210},'selectGender','selectOne',ioGenderData,true,2);
 var ioGenderVal='';
-var ioGenderData = [];
-ioGenderData[0]=Titanium.UI.createPickerRow({
-	title:'',
-	custom_item:'',
-	selected:true
-});
-ioGenderData[1]=Titanium.UI.createPickerRow({
-	title:'Male',
-	custom_item:'M'
-});
-ioGenderData[2]=Titanium.UI.createPickerRow({
-	title:'Female',
-	custom_item:'M'
-});
-ioGenderData[3]=Titanium.UI.createPickerRow({
-	title:"Don't Care",
-	custom_item:'D'
-});
-ioGenderData[4]=Titanium.UI.createPickerRow({
-	title:'Unknown',
-	custom_item:'E'
-});
-ioGender.add(ioGenderData);
-ioGender.selectionIndicator = true;
 ioGender.addEventListener('change', function(e) {
 	ioGenderVal = e.row;
 });
-var optTobacco = Titanium.UI.createLabel({
-	text:'Tobacco:',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-});
-var ioTobaccoVal = "";
-var ioTobacco = Titanium.UI.createPicker({
-	width:"60%",
-});
 
-var ioTobaccoData = [];
-ioTobaccoData[0]=Ti.UI.createPickerRow({
-	title:'',
-	custom_item:'',
-	selected:true
-});
-ioTobaccoData[1]=Ti.UI.createPickerRow({
-	title:'Yes',
-	custom_item:'Y'
-});
-ioTobaccoData[2]=Ti.UI.createPickerRow({
-	title:'No',
-	custom_item:'N'
-});
-ioTobaccoData[3]=Ti.UI.createPickerRow({
-	title:'Don\'t Care',
-	custom_item:'D'
-});
-ioTobaccoData[4]=Ti.UI.createPickerRow({
-	title:'Unknown',
-	custom_item:'E'
-});
-ioTobacco.add(ioTobaccoData);
-ioTobacco.selectionIndicator = true;
+ioTobaccoData = [
+	{title:'Yes',custom_item:'Y'},
+	{title:'No',custom_item:'N'},
+	{title:'Don\'t Care',custom_item:'D'},
+	{title:'Unknown',custom_item:'E'}
+]
+var ioTobacco = forms.selectOne({top:270},'selectTobaco','selectOne',ioTobaccoData,true,2);
+var ioTobaccoVal='';
 ioTobacco.addEventListener('change', function(e) {
 	ioTobaccoVal = e.row;
 });
-var optMsplan = Titanium.UI.createLabel({
-	text:'MS Plan:',
-	height:30,
-	width:"60%",
-	color:'#222',
-	font: {
-		fontSize:16
-	},
-});
-var ioMsplanVal = "";
-var ioMsplan = Titanium.UI.createPicker({
-	width:"60%",
-});
-var ioMsplanData = []
-ioMsplanData[0]=Ti.UI.createPickerRow({
-	title:'',
-	custom_item:'',
-	selected:true
-});
-ioMsplanData[1]=Ti.UI.createPickerRow({
-	title:'A',
-	custom_item:'A'
-});
-ioMsplanData[2]=Ti.UI.createPickerRow({
-	title:'B',
-	custom_item:'B'
-});
-ioMsplanData[3]=Ti.UI.createPickerRow({
-	title:'C',
-	custom_item:'C'
-});
-ioMsplanData[4]=Ti.UI.createPickerRow({
-	title:'C*',
-	custom_item:'C*'
-});
-ioMsplanData[5]=Ti.UI.createPickerRow({
-	title:'D',
-	custom_item:'D'
-});
-ioMsplanData[6]=Ti.UI.createPickerRow({
-	title:'F',
-	custom_item:'F'
-});
-ioMsplanData[7]=Ti.UI.createPickerRow({
-	title:'F*',
-	custom_item:'F*'
-});
-ioMsplanData[8]=Ti.UI.createPickerRow({
-	title:'G',
-	custom_item:'G'
-});
-ioMsplanData[9]=Ti.UI.createPickerRow({
-	title:'HD',
-	custom_item:'HD'
-});
-ioMsplanData[10]=Ti.UI.createPickerRow({
-	title:'K',
-	custom_item:'K'
-});
-ioMsplanData[11]=Ti.UI.createPickerRow({
-	title:'L',
-	custom_item:'L'
-});
-ioMsplanData[12]=Ti.UI.createPickerRow({
-	title:'M',
-	custom_item:'M'
-});
-ioMsplanData[13]=Ti.UI.createPickerRow({
-	title:'N',
-	custom_item:'N'
-});
-ioMsplan.add(ioMsplanData);
-ioMsplan.selectionIndicator = true;
-ioMsplan.addEventListener('change', function(e) {
-	ioMsplanVal = e.row;
-});
-var btnFormSearch = Titanium.UI.createButton({
-	width: "50%",
-	color: "#555",
-	font: {
-		fontSize: 22,
-		fontWeight: "bold"
-	},
-	height: 50,
-	title: "Search"
-});
 
-view.add(optZip);
-view.add(ioZip);
-view.add(optAge);
-view.add(ioAge);
 
-view.add(optMsplan);
-view.add(ioMsplan);
 
-view.add(optGender);
-view.add(ioGender);
-view.add(optTobacco);
-view.add(ioTobacco);
 
-view.add(btnFormSearch);
+var createView = [
+	optZip,
+	ioZip,
+	optAge,
+	ioAge,
+	optMsplan,
+	ioMsPlan,
+	optGender,
+	ioGender,
+	optTobacco,
+	ioTobacco,
+	btnSubmitSearch
+];
 
+genAdd(view,createView);
 scrollView.add(view);
 
 var headerView = Ti.UI.createView({
@@ -398,7 +244,7 @@ footerLabel.addEventListener("click", function(e) {
 	});
 
 });
-btnFormSearch.addEventListener("click", function(e) {
+btnSubmitSearch.addEventListener("click", function(e) {
 	zip = ioZip.value;
 	age = ioAge.value;
 	var val = [];
@@ -482,6 +328,3 @@ btnFormSearch.addEventListener("click", function(e) {
 
 	}
 });
-
-
-
