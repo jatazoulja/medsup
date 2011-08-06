@@ -4,7 +4,8 @@ var wLoginWin = Titanium.UI.createWindow({
 	fullscreen: true,
 	backgroundImage:"default.png",
 	navBarHidden: true,
-	url: "login.js"
+	url: "login.js",
+	layout:"vertical"
 });
 wLoginWin.open();
 

@@ -14,16 +14,14 @@ var lblUsername = forms.label("Username", "username", "textLabel");
 var lblPassword = forms.label("Password", "password", "textLabel");
 var ioUsername = forms.text('Username', 'ioUser', "textBox")
 var ioPassword = forms.text('Password', 'ioPass', "textBox")
-var btnLogin	= forms.button("Login","btnLogin","button", {
-	top: 280
-});
+var btnLogin	= forms.button("Login","btnLogin","button");
 
 var arElements = [
 image,
-ioUsername,
 lblUsername,
-ioPassword,
+ioUsername,
 lblPassword,
+ioPassword,
 btnLogin,
 ];
 

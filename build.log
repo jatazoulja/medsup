@@ -1,63 +1,32 @@
 Logfile initialized
 [INFO] logfile = C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build.log
-[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 11 HVGA 192.168.0.100:38015
+[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 11 QVGA
 [INFO] Building medSupp for Android ... one moment
 [INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
 [TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again
-[DEBUG] com.medSupp installed? False
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.032000 seconds on emulator to get ready
+[DEBUG] com.medSupp installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\init.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\init.js
-[TRACE] Generating Java Classes
+[TRACE] COPYING MODIFIED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\view.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\view.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\view.jss => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\view.jss
+[INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
-[DEBUG] copying app icon: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appicon.png
-[DEBUG] generating theme.xml
-[DEBUG] found splash screen at C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\default.png
+[DEBUG] app stylesheet => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\ApplicationStylesheet.java
 [WARN] Use of AndroidManifest.custom.xml is deprecated. Please put your custom manifest as "AndroidManifest.xml" in the "platform/android" directory if you do not need to compile for versions < 1.5
 [INFO] Detected custom ApplicationManifest.xml -- no Titanium version migration supported
-[TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\MedsuppActivity.java to javac build list
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\MedsuppAppInfo.java to javac build list
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\MedsuppApplication.java to javac build list
-[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\R.java to javac build list
-[DEBUG] Building Java Sources: "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppActivity.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppAppInfo.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppApplication.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\R.java"
+[DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\ApplicationStylesheet.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\ApplicationStylesheet.java"
 [INFO] Waiting for SDCard to become available..
-[ERROR] Error checking for SDCard using 'mount'
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/appWindow/searchList/controller.js
 [DEBUG] from resource zip => assets/Resources/appWindow/searchList/init.js
+[DEBUG] from resource zip => assets/Resources/appWindow/searchList/view.js
+[DEBUG] from resource zip => assets/Resources/appWindow/searchList/view.jss
 [DEBUG] from resource zip => assets/Resources/config/config.js
 [DEBUG] from resource zip => assets/Resources/images/Dialog/arrow down.png
 [DEBUG] from resource zip => assets/Resources/images/Dialog/arrow up.png
@@ -208,18 +177,11 @@ Logfile initialized
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.064000 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Launching application ... medSupp
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.medSupp/.MedsuppActivity }
+
+[INFO] Deployed medSupp ... Application should be running.
