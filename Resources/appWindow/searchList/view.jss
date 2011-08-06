@@ -1,10 +1,13 @@
 .formSearchView {
 	layout:"horizontal";
 	hieght:40;
-	padding:5;
+	top:5;
+	left:5;
+	right:5;
+	bottom:5;
 }
 .formLabelText {
-	left:0;
+	left:5;
 	fontSize:16;
 	width:"25%";
 	fontWieght:"bold";
@@ -15,12 +18,14 @@
 }
 .tableView {
 	borderRadius:5;
-	marginTop:2;
-	marginBottom:  2;
-	marginLeft:5;
-	marginRight:5;
+	top:2;
+	bottom:2;
+	left:5;
+	right:5;
+	height:"auto";
+	width:"auto";
 	borderColor:"#616161";
-	background:	"#fdfdfd";
+	background:	"#fff";
 }
 .labelText {
 	height:40;

@@ -6,7 +6,7 @@ var winSearhList = Titanium.UI.createWindow({
 	backgroundImage:"default.png",
 	fullscreen: true,
 	navBarHidden: true,
-	padding:5
+
 });
 
 Titanium.include("view.js");
