@@ -14,6 +14,9 @@ var ageLabel 		= forms.label("age",'ageLabel',"formLabelText");
 var msPlanLabel		= forms.label("Ms Plan",'msplanLabel',"formLabelText");
 var genderLabel 	= forms.label("Gender",'genderLabel',"formLabelText");
 var tobaccoLabel 	= forms.label("Tobacco",'tobaccoLabel',"formLabelText");
+var msPlanVal		= forms.label("",'msPlanVal',"formLabelText");
+var genderVal	 	= forms.label("",'genderVal',"formLabelText");
+var tobaccoVal	 	= forms.label("",'tobaccoVal',"formLabelText");
 var zipTextBox		= forms.text("00000","zipTextBox","formTextBox");
 var ageTextBox		= forms.text("00", "ageTextBox","formTextBox");
 
@@ -25,9 +28,9 @@ var tobaccoView  	= Titanium.UI.createView({id:"tobaccoView",className:"formSear
 
 genAdd(zipView, [zipLabel,zipTextBox]);
 genAdd(ageView, [ageLabel,ageTextBox]);
-genAdd(msPlanView, [msPlanLabel]);
-genAdd(genderView, [genderLabel]);
-genAdd(tobaccoView, [tobaccoLabel]);
+genAdd(msPlanView, [msPlanLabel,msPlanVal]);
+genAdd(genderView, [genderLabel,genderVal]);
+genAdd(tobaccoView, [tobaccoLabel,tobaccoVal]);
 
 zipRow.add(zipView);
 data.push(zipRow);

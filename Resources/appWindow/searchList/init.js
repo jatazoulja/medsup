@@ -5,7 +5,8 @@ var winSearhList = Titanium.UI.createWindow({
 	title:'Search Form',
 	backgroundImage:"default.png",
 	fullscreen: true,
-	navBarHidden: true
+	navBarHidden: true,
+	padding:5
 });
 
 Titanium.include("view.js");
