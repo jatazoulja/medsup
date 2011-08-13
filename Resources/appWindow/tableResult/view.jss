@@ -34,3 +34,11 @@
 .formBtn {
 	width: "50%";
 }
+
+
+.horizontalView {
+	layout: "horizontal";
+}
+.verticalView {
+	layout: "vertical";
+}

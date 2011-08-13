@@ -17,12 +17,12 @@ var ioPassword = forms.text('Password', 'ioPass', "textBox")
 var btnLogin	= forms.button("Login","btnLogin","button");
 
 var arElements = [
-image,
-lblUsername,
-ioUsername,
-lblPassword,
-ioPassword,
-btnLogin,
+	image,
+	lblUsername,
+	ioUsername,
+	lblPassword,
+	ioPassword,
+	btnLogin,
 ];
 
 genAdd(wLoginWin,arElements);

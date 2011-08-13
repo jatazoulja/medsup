@@ -3,14 +3,16 @@ var intraNet = {
 	key : "YW5kcm9pZE1vYmlsZQ",
 	contact: "jatazoulja@gmail.com",
 	tempQuery: [],
-	tempData: []
+	tempData: [],
+	tesPass:""
 };
 var pdev2 = {
 	url : "http://59.2.0.90/medsupp_android/",
 	key : "YW5kcm9pZE1vYmlsZQ",
 	contact: "jatazoulja@gmail.com",
 	tempQuery: [],
-	tempData: []
+	tempData: [],
+	tesPass:""
 };
 
 var production = {
@@ -18,7 +20,8 @@ var production = {
 	key : "YW5kcm9pZE1vYmlsZQ",
 	contact: "jatazoulja@gmail.com",
 	tempQuery: [],
-	tempData: []
+	tempData: [],
+	tesPass:""
 };
 
 
