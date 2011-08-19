@@ -4,26 +4,23 @@ Titanium.include("../../libs/library.js");
 function proCessTable(data,extra) {
 	for (var i = 0; i < data.length; i++) {
 		var row 			= Titanium.UI.createTableViewRow({
-			height:"auto",
+			height:50,
+			width:"auto",
 			layout: 'horizontal',
 		});
 
 		// creat View
 		var viewThumbsCont	= Titanium.UI.createView({
-			id:"viewThumbsCont",
 			className:'thumbs'
 		});
 		var viewDetailsCont = Titanium.UI.createView({
-			id:"viewDetailsCont",
-			className:'verticalView'
+			className:'viewDetailsCont'
 		});	
 		var viewTitleCont 	= Titanium.UI.createView({
-			id:"viewTitleCont",
-			className:'horizontalView'
+			className:'viewTitleCont'
 		});
 		var viewDescCont 	= Titanium.UI.createView({
-			id:"viewDescCont",
-			className:'horizontalView'
+			className:'viewDescCont'
 		});
 		CARRIERNAME = data[i].CARRIERNAME;
 		var carrierName 	= CARRIERNAME.replace(/\W/gi,'').toLowerCase();
@@ -33,10 +30,11 @@ function proCessTable(data,extra) {
 			width:90,
 			height:60,
 			backgroundColor:"#fe0000",
-			image:'/images/carrier/'+carrierName+'.png'
+			image:'images/carrier/'+carrierName+'.png',
+			backgroundImage:'images/carrier/'+carrierName+'.png'
 		};		
 
-		genAdd(viewTitleCont,[forms.label(data[i].MONTHLY,"monthly"+i,"monthly"), forms.label(data[i].ANNUAL,"annual"+i,"annual")])
+		genAdd(viewTitleCont,[forms.label(data[i].MONTHLY,"monthly"+i,"monthly",{top: -10,left:0,width:"49%",height:60}), forms.label(data[i].ANNUAL,"annual"+i,"annual",{top: -10,left:0,width:"49%",height:60,textAlign:"right"})])
 		genAdd(viewDescCont,forms.label("MsPlan: "+data[i].MSPLAN+" Type: "+data[i].PLAN_TYPE,"planType_"+i,"planType"));
 		genAdd(viewDetailsCont,[viewTitleCont,viewDescCont])
 		genAdd(viewThumbsCont,Titanium.UI.createImageView(carrierImage));
