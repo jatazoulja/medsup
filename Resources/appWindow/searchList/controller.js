@@ -78,7 +78,8 @@ searchBtn.addEventListener("click", function(e) {
 					fullscreen: true,
 					navBarHidden: true,
 					url:"appWindow/tableResult/init.js",
-					arData: this.responseText
+					arData: this.responseText,
+					arPost:arPost
 				});
 				winTableResult.open({animate:true});
 			} else {

@@ -4,9 +4,9 @@ Logfile initialized
 [INFO] Building medSupp for Android ... one moment
 [INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.027000 seconds on emulator to get ready
+[DEBUG] waited 0.163000 seconds on emulator to get ready
 [DEBUG] com.medSupp installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
