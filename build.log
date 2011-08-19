@@ -1,154 +1,15 @@
 Logfile initialized
 [INFO] logfile = C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build.log
-[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 11 QVGA
+[DEBUG] C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator medSupp C:\andriod C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp com.medSupp 24 WXGA
 [INFO] Building medSupp for Android ... one moment
 [INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 65 seconds)
-[DEBUG] waited 65.772000 seconds on emulator to get ready
-[INFO] Waiting for the Android Emulator to become available
-[ERROR] Timed out waiting for android.process.acore
-[DEBUG] com.medSupp installed? True
-[WARN] Fastdev enabled, but server isn't running, deploying normally
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.050000 seconds on emulator to get ready
+[DEBUG] com.medSupp installed? False
+[INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[INFO] Detected tiapp.xml change, forcing full re-build...
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\app.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\app.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appicon.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appicon.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appicon.psd => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appicon.psd
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appOption.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appOption.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\controller.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\controller.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\init.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\init.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\view.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\view.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\searchList\view.jss => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\searchList\view.jss
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\tableResult\controller.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\tableResult\controller.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\tableResult\init.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\tableResult\init.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\tableResult\view.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\tableResult\view.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\appWindow\tableResult\view.jss => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appWindow\tableResult\view.jss
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\config\config.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\config\config.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\default.psd => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\default.psd
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\bg_01.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\bg_01.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\bg_01.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\bg_01.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\americancontinental.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\americancontinental.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\americancontinental.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\americancontinental.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\anthem.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\anthem.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\anthembluecrossandblueshield.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\anthembluecrossandblueshield.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\bluecross-blueshield.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\bluecross-blueshield.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\bluecrossblueshield.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\bluecrossblueshield.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\conseco.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\conseco.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\conseco.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\conseco.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\continentallife.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\continentallife.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\continentallife.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\continentallife.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\genworth.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\genworth.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\genworth.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\genworth.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\mutualofomaha.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\mutualofomaha.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\mutualomaha.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\mutualomaha.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\priorityhealth.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\priorityhealth.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\priorityhealth.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\priorityhealth.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\standardlife.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\standardlife.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\standarlife.jpg => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\standarlife.jpg
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedamerican.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedamerican.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedamerican.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedamerican.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedhealthcare.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedhealthcare.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedhealthcare.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedhealthcare.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedofomaha.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedofomaha.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedofomaha.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedofomaha.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedworld.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedworld.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\unitedworld.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\unitedworld.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\woodmen.gif => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\woodmen.gif
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\carrier\woodmenassuredlife.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\carrier\woodmenassuredlife.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\arrow down.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\arrow down.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\arrow up.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\arrow up.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\copy.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\copy.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\cut.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\cut.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\options.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\options.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\paste.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\paste.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\redo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\redo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\Thumbs.db => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\Thumbs.db
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\undo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\undo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\zoom in.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\zoom in.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Dialog\zoom out.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Dialog\zoom out.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\arrow down.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\arrow down.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\arrow up.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\arrow up.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\copy.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\copy.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\cut.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\cut.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\options.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\options.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\paste.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\paste.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\redo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\redo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\Thumbs.db => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\Thumbs.db
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\undo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\undo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\zoom in.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\zoom in.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\List\zoom out.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\List\zoom out.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\arrow down.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\arrow down.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\arrow up.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\arrow up.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\copy.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\copy.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\cut.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\cut.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\options.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\options.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\paste.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\paste.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\redo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\redo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\Thumbs.db => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\Thumbs.db
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\undo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\undo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\zoom in.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\zoom in.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Menu\zoom out.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Menu\zoom out.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-long-land-hdpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-long-land-hdpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-long-land-ldpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-long-land-ldpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-long-port-hdpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-long-port-hdpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-long-port-ldpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-long-port-ldpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-notlong-land-hdpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-notlong-land-hdpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-notlong-land-ldpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-notlong-land-ldpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-notlong-land-mdpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-notlong-land-mdpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-notlong-port-hdpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-notlong-port-hdpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-notlong-port-ldpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-notlong-port-ldpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\res-notlong-port-mdpi\default.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\res-notlong-port-mdpi\default.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\arrow down selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\arrow down selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\arrow down unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\arrow down unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\arrow up selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\arrow up selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\arrow up unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\arrow up unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\copy selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\copy selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\copy unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\copy unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\cut selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\cut selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\cut unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\cut unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\options selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\options selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\options unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\options unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\paste selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\paste selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\paste unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\paste unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\redo selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\redo selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\redo unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\redo unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\Thumbs.db => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\Thumbs.db
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\undo selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\undo selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\undo unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\undo unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\zoom in selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\zoom in selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\zoom in unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\zoom in unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\zoom out selected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\zoom out selected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\images\Tab\zoom out unselected.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\images\Tab\zoom out unselected.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\KS_nav_ui.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\KS_nav_ui.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\KS_nav_views.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\KS_nav_views.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\libs\ajax.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\libs\ajax.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\libs\debug.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\libs\debug.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\libs\forms.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\libs\forms.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\libs\library.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\libs\library.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\libs\tableViewForm.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\libs\tableViewForm.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\libs\validation.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\libs\validation.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\listTable.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\listTable.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\listTable.jss => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\listTable.jss
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\login.js => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\login.js
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\login.jss => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\login.jss
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\logo.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\logo.png
-[TRACE] COPYING CREATED FILE: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\Resources\options.png => C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\options.png
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
 [DEBUG] copying app icon: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\assets\Resources\appicon.png
@@ -161,7 +22,6 @@ Logfile initialized
 [DEBUG] adding C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\gen\com\medSupp\R.java to javac build list
 [DEBUG] Building Java Sources: "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppActivity.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppAppInfo.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\MedsuppApplication.java" "C:\\Users\\php2\\My Documents\\Titanium Studio Workspace\\medSupp\\build\\android\\gen\\com\\medSupp\\R.java"
 [INFO] Waiting for SDCard to become available..
-[ERROR] Timed out waiting for SDCard to become available (60s)
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: C:\Users\php2\My Documents\Titanium Studio Workspace\medSupp\build\android\bin\app-unsigned.apk
@@ -287,14 +147,21 @@ Logfile initialized
 [DEBUG] from resource zip => assets/tiapp.xml
 [DEBUG] from resource zip => res/drawable/appicon.png
 [DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/facebook_icon.png
+[DEBUG] from resource zip => res/drawable/facebook_login.png
+[DEBUG] from resource zip => res/drawable/facebook_login_down.png
+[DEBUG] from resource zip => res/drawable/facebook_login_wide.png
+[DEBUG] from resource zip => res/drawable/facebook_login_wide_down.png
+[DEBUG] from resource zip => res/drawable/facebook_logout.png
+[DEBUG] from resource zip => res/drawable/facebook_logout_down.png
 [DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
 [DEBUG] from resource zip => AndroidManifest.xml
 [DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/facebook_icon.png
+[DEBUG] from resource zip => res/drawable-ldpi/facebook_icon.png
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages.properties
-[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/apache/Commons-NOTICE.txt
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/apache/HttpComponents-NOTICE.txt
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/apache/mime4j-NOTICE.txt
@@ -311,12 +178,16 @@ Logfile initialized
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
 [DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-yahoo.jar => ti/modules/titanium/yahoo/yahoo.js
+[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages.properties
+[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[DEBUG] from JAR C:\ProgramData\Titanium\mobilesdk\win32\1.7.2\android\modules\titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.082000 seconds on emulator to get ready
+[DEBUG] waited 0.029000 seconds on emulator to get ready
 [INFO] Installing application on device
-[INFO] Launching application ... medSupp
-[TRACE] Launch output: [1]   Segmentation fault      am start -a andr...
+[ERROR] Failed installing com.medSupp: 	pkg: /data/local/tmp/app.apk
+Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+rm failed for /data/local/tmp/app.apk, No such file or directory
 
-[INFO] Deployed medSupp ... Application should be running.
